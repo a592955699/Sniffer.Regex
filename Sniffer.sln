@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sniffer", "Sniffer\Sniffer.csproj", "{11AD22D8-FF4B-4CF2-90B4-3F8D1D51B123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sniffer.From", "Sniffer.From\Sniffer.From.csproj", "{0226E310-525F-4B39-B013-CE647F7A7564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReffDll", "ReffDll", "{F3092354-EACB-4E1F-AB21-BEB8D5DEE376}"
+	ProjectSection(SolutionItems) = preProject
+		RefDll\Newtonsoft.Json.dll = RefDll\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11AD22D8-FF4B-4CF2-90B4-3F8D1D51B123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AD22D8-FF4B-4CF2-90B4-3F8D1D51B123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AD22D8-FF4B-4CF2-90B4-3F8D1D51B123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AD22D8-FF4B-4CF2-90B4-3F8D1D51B123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0226E310-525F-4B39-B013-CE647F7A7564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0226E310-525F-4B39-B013-CE647F7A7564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0226E310-525F-4B39-B013-CE647F7A7564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0226E310-525F-4B39-B013-CE647F7A7564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
